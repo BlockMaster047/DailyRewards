@@ -1,0 +1,39 @@
+Date : 2025-04-05 17:38:34
+Directory : c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards
+Total : 5 files,  187 codes, 1 comments, 40 blanks, all 228 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |          4 |        175 |          1 |         40 |        216 |
+| YAML     |          1 |         12 |          0 |          0 |         12 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |          5 |        187 |          1 |         40 |        228 |
+| src                                                                                                                  |          5 |        187 |          1 |         40 |        228 |
+| src\main                                                                                                             |          5 |        187 |          1 |         40 |        228 |
+| src\main\java                                                                                                        |          4 |        175 |          1 |         40 |        216 |
+| src\main\java\com                                                                                                    |          4 |        175 |          1 |         40 |        216 |
+| src\main\java\com\dailyrewards                                                                                       |          4 |        175 |          1 |         40 |        216 |
+| src\main\java\com\dailyrewards (Files)                                                                               |          1 |         19 |          1 |          8 |         28 |
+| src\main\java\com\dailyrewards\commands                                                                              |          1 |         33 |          0 |          8 |         41 |
+| src\main\java\com\dailyrewards\data                                                                                  |          2 |        123 |          0 |         24 |        147 |
+| src\main\resources                                                                                                   |          1 |         12 |          0 |          0 |         12 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                             | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards\src\main\java\com\dailyrewards\DailyRewards.java      | Java     |         19 |          1 |          8 |         28 |
+| c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards\src\main\java\com\dailyrewards\commands\daily.java    | Java     |         33 |          0 |          8 |         41 |
+| c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards\src\main\java\com\dailyrewards\data\dailyData.java    | Java     |         51 |          0 |         10 |         61 |
+| c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards\src\main\java\com\dailyrewards\data\dailyRewards.java | Java     |         72 |          0 |         14 |         86 |
+| c:\Users\Block\OneDrive\Desktop\PluginDevelopment\dailyrewards\src\main\resources\plugin.yml                         | YAML     |         12 |          0 |          0 |         12 |
+| Total                                                                                                                |          |        187 |          1 |         40 |        228 |
++----------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

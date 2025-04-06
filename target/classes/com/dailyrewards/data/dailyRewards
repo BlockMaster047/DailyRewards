@@ -1,0 +1,41 @@
+package com.dailyrewards.data;
+
+import java.io.*;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Nullable;
+
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
+import com.dailyrewards.DailyRewards;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.Gson;
+
+public class dailyrewards{
+    private static Map<String, List<Material> rewards = new HashMap<>();
+    
+
+    public static void save() throws IOException{
+        Gson gson = new Gson();
+        File file = new File(DailyRewards.getPlugin().getDataFolder().getAbsolutePath()+"data/daily.json");
+        file.getParentFile();
+        file.createNewFile();
+        Writer writer = new FileWriter(file);
+        gson.toJson(rewards,writer);
+        writer.flush();
+        writer.close();
+    }
+
+    public static void load() throws IOException{
+        Gson gson = new Gson();
+        File file = new File(DailyRewards.getPlugin().getDataFolder().getAbsolutePath()+"data/daily.json");
+        if (file.exists()){
+            Reader reader = new FileReader(file);
+            Type type = new TypeToken<Map<String, List<ItemStack>>>() {}.getType();
+            rewards = gson.fromJson(reader,type);
+        }
+    }
+}
